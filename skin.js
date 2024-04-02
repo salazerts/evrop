@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.4/15996
 // Filename: Evrop.ggsk
-// Generated Вт апр 2 06:40:43 2024
+// Generated Вт апр 2 06:49:46 2024
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -700,6 +700,285 @@ function pano2vrSkin(player,base) {
 		}
 		this._loading.appendChild(this._loadingbar);
 		this.divSkin.appendChild(this._loading);
+		this._rectangle_21=document.createElement('div');
+		this._rectangle_21.ggId="Rectangle 2";
+		this._rectangle_21.ggTop=-206;
+		this._rectangle_21.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._rectangle_21.ggVisible=true;
+		this._rectangle_21.className='ggskin ggskin_rectangle ';
+		this._rectangle_21.ggType='rectangle';
+		hs ='';
+		hs+=cssPrefix + 'background-clip : padding-box;';
+		hs+='background-clip : padding-box;';
+		hs+='background : rgba(0,0,0,0.784314);';
+		hs+='border : 1px solid rgba(0,0,0,0);';
+		hs+='cursor : default;';
+		hs+='height : 24px;';
+		hs+='left : 6px;';
+		hs+='position : absolute;';
+		hs+='top : -206px;';
+		hs+='visibility : inherit;';
+		hs+='width : 140px;';
+		hs+='pointer-events:auto;';
+		this._rectangle_21.setAttribute('style',hs);
+		this._rectangle_21.style[domTransform + 'Origin']='50% 50%';
+		me._rectangle_21.ggIsActive=function() {
+			return false;
+		}
+		me._rectangle_21.ggElementNodeId=function() {
+			return me.player.getCurrentNode();
+		}
+		this._rectangle_21.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var h=this.parentNode.offsetHeight;
+					this.style.top=(this.ggTop - 0 + h) + 'px';
+			}
+		}
+		this._text_21=document.createElement('div');
+		this._text_21__text=document.createElement('div');
+		this._text_21.className='ggskin ggskin_textdiv';
+		this._text_21.ggTextDiv=this._text_21__text;
+		this._text_21.ggId="Text 2";
+		this._text_21.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._text_21.ggVisible=true;
+		this._text_21.className='ggskin ggskin_text ';
+		this._text_21.ggType='text';
+		hs ='';
+		hs+='height : 19px;';
+		hs+='left : -7px;';
+		hs+='position : absolute;';
+		hs+='top : -1px;';
+		hs+='visibility : inherit;';
+		hs+='width : 120px;';
+		hs+='pointer-events:auto;';
+		this._text_21.setAttribute('style',hs);
+		this._text_21.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 120px;';
+		hs+='height: 19px;';
+		hs+='border: 1px solid #000000;';
+		hs+='border: 1px solid rgba(0,0,0,0);';
+		hs+=cssPrefix + 'background-clip: padding-box;';
+		hs+='background-clip: padding-box;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		this._text_21__text.setAttribute('style',hs);
+		this._text_21__text.innerHTML="\u041b\u0438\u0444\u0442\u043e\u0432\u043e\u0439 \u0445\u043e\u043b\u043b";
+		this._text_21.appendChild(this._text_21__text);
+		me._text_21.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		me._text_21.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return me.player.getCurrentNode();
+		}
+		this._text_21.ggUpdatePosition=function (useTransition) {
+		}
+		this._rectangle_21.appendChild(this._text_21);
+		this.divSkin.appendChild(this._rectangle_21);
+		this._rectangle_20=document.createElement('div');
+		this._rectangle_20.ggId="Rectangle 2";
+		this._rectangle_20.ggTop=-230;
+		this._rectangle_20.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._rectangle_20.ggVisible=true;
+		this._rectangle_20.className='ggskin ggskin_rectangle ';
+		this._rectangle_20.ggType='rectangle';
+		hs ='';
+		hs+=cssPrefix + 'background-clip : padding-box;';
+		hs+='background-clip : padding-box;';
+		hs+='background : rgba(0,0,0,0.784314);';
+		hs+='border : 1px solid rgba(0,0,0,0);';
+		hs+='cursor : default;';
+		hs+='height : 24px;';
+		hs+='left : 6px;';
+		hs+='position : absolute;';
+		hs+='top : -230px;';
+		hs+='visibility : inherit;';
+		hs+='width : 140px;';
+		hs+='pointer-events:auto;';
+		this._rectangle_20.setAttribute('style',hs);
+		this._rectangle_20.style[domTransform + 'Origin']='50% 50%';
+		me._rectangle_20.ggIsActive=function() {
+			return false;
+		}
+		me._rectangle_20.ggElementNodeId=function() {
+			return me.player.getCurrentNode();
+		}
+		this._rectangle_20.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var h=this.parentNode.offsetHeight;
+					this.style.top=(this.ggTop - 0 + h) + 'px';
+			}
+		}
+		this._text_20=document.createElement('div');
+		this._text_20__text=document.createElement('div');
+		this._text_20.className='ggskin ggskin_textdiv';
+		this._text_20.ggTextDiv=this._text_20__text;
+		this._text_20.ggId="Text 2";
+		this._text_20.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._text_20.ggVisible=true;
+		this._text_20.className='ggskin ggskin_text ';
+		this._text_20.ggType='text';
+		hs ='';
+		hs+='height : 19px;';
+		hs+='left : 1px;';
+		hs+='position : absolute;';
+		hs+='top : -1px;';
+		hs+='visibility : inherit;';
+		hs+='width : 103px;';
+		hs+='pointer-events:auto;';
+		this._text_20.setAttribute('style',hs);
+		this._text_20.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 103px;';
+		hs+='height: 19px;';
+		hs+='border: 1px solid #000000;';
+		hs+='border: 1px solid rgba(0,0,0,0);';
+		hs+=cssPrefix + 'background-clip: padding-box;';
+		hs+='background-clip: padding-box;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		this._text_20__text.setAttribute('style',hs);
+		this._text_20__text.innerHTML="\u0412\u0445\u043e\u0434\u043d\u0430\u044f \u0433\u0440\u0443\u043f\u043f\u0430";
+		this._text_20.appendChild(this._text_20__text);
+		me._text_20.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		me._text_20.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return me.player.getCurrentNode();
+		}
+		this._text_20.ggUpdatePosition=function (useTransition) {
+		}
+		this._rectangle_20.appendChild(this._text_20);
+		this.divSkin.appendChild(this._rectangle_20);
+		this._rectangle_2=document.createElement('div');
+		this._rectangle_2.ggId="Rectangle 2";
+		this._rectangle_2.ggTop=-254;
+		this._rectangle_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._rectangle_2.ggVisible=true;
+		this._rectangle_2.className='ggskin ggskin_rectangle ';
+		this._rectangle_2.ggType='rectangle';
+		hs ='';
+		hs+=cssPrefix + 'background-clip : padding-box;';
+		hs+='background-clip : padding-box;';
+		hs+='background : rgba(0,0,0,0.784314);';
+		hs+='border : 1px solid rgba(0,0,0,0);';
+		hs+='cursor : default;';
+		hs+='height : 24px;';
+		hs+='left : 6px;';
+		hs+='position : absolute;';
+		hs+='top : -254px;';
+		hs+='visibility : inherit;';
+		hs+='width : 140px;';
+		hs+='pointer-events:auto;';
+		this._rectangle_2.setAttribute('style',hs);
+		this._rectangle_2.style[domTransform + 'Origin']='50% 50%';
+		me._rectangle_2.ggIsActive=function() {
+			return false;
+		}
+		me._rectangle_2.ggElementNodeId=function() {
+			return me.player.getCurrentNode();
+		}
+		this._rectangle_2.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var h=this.parentNode.offsetHeight;
+					this.style.top=(this.ggTop - 0 + h) + 'px';
+			}
+		}
+		this._text_2=document.createElement('div');
+		this._text_2__text=document.createElement('div');
+		this._text_2.className='ggskin ggskin_textdiv';
+		this._text_2.ggTextDiv=this._text_2__text;
+		this._text_2.ggId="Text 2";
+		this._text_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._text_2.ggVisible=true;
+		this._text_2.className='ggskin ggskin_text ';
+		this._text_2.ggType='text';
+		hs ='';
+		hs+='height : 19px;';
+		hs+='left : -26px;';
+		hs+='position : absolute;';
+		hs+='top : -1px;';
+		hs+='visibility : inherit;';
+		hs+='width : 90px;';
+		hs+='pointer-events:auto;';
+		this._text_2.setAttribute('style',hs);
+		this._text_2.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 90px;';
+		hs+='height: 19px;';
+		hs+='border: 1px solid #000000;';
+		hs+='border: 1px solid rgba(0,0,0,0);';
+		hs+=cssPrefix + 'background-clip: padding-box;';
+		hs+='background-clip: padding-box;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		this._text_2__text.setAttribute('style',hs);
+		this._text_2__text.innerHTML="\u0414\u0432\u043e\u0440";
+		this._text_2.appendChild(this._text_2__text);
+		me._text_2.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		me._text_2.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return me.player.getCurrentNode();
+		}
+		this._text_2.ggUpdatePosition=function (useTransition) {
+		}
+		this._rectangle_2.appendChild(this._text_2);
+		this.divSkin.appendChild(this._rectangle_2);
 		this.divSkin.ggUpdateSize=function(w,h) {
 			me.updateSize(me.divSkin);
 		}
