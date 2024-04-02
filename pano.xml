@@ -363,6 +363,8 @@
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
       <hotspot tilt="-18.66" title="Зона отдыха" target="" skinid="ht_node" url="{node12}" pan="37.26" description="" id="Point01"/>
+      <hotspot tilt="-25.38" title="Детская площадка" target="" skinid="ht_node" url="{node14}" pan="121.59" description="" id="Point02"/>
+      <hotspot tilt="-18.63" title="Двор" target="" skinid="ht_node" url="{node11}" pan="-110.97" description="" id="Point03"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
@@ -385,6 +387,9 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot tilt="-20.51" title="Набережная" target="" skinid="ht_node" url="{node17}" pan="-0.49" description="" id="Point01"/>
+      <hotspot tilt="-15.72" title="Набережная" target="" skinid="ht_node" url="{node18}" pan="-103.09" description="" id="Point02"/>
+      <hotspot tilt="-32.61" title="Вход во двор" target="" skinid="ht_node" url="{node6}" pan="136.24" description="" id="Point03"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
@@ -407,6 +412,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot tilt="-13.34" title="Вход во двор" target="" skinid="ht_node" url="{node6}" pan="-136.05" description="" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
@@ -429,6 +435,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot tilt="-20.99" title="Вход во двор" target="" skinid="ht_node" url="{node6}" pan="86.23" description="" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
