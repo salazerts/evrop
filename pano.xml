@@ -8,12 +8,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="87.2" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Вхлдная группа" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -30,12 +30,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Теплый тамбур" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -52,12 +52,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Теплый тамбур" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -74,12 +74,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Колясочная" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -96,12 +96,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Лифтовый холл" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -118,12 +118,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Вход во двор" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -140,12 +140,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Двор" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -162,12 +162,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Двор" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -184,12 +184,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Двор" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -206,12 +206,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Двор" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -228,12 +228,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Двор" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -250,12 +250,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Зона отдыха" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -272,12 +272,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Спортивная площадка" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -294,12 +294,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Детская площадка" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -316,12 +316,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Детская площадка" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -338,12 +338,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Выход на набережную" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -360,12 +360,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Набережная" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
@@ -382,12 +382,12 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <start tilt="2.75" fov="87.2" pan="-3.12" projection="4"/>
+      <flyin tilt="6.65" fov="70" pan="-4.06" projection="4"/>
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Набережная" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
