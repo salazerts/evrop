@@ -13,11 +13,14 @@
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="270" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" title="Вхлдная группа" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
+    <userdata customnodeid="" title="Входная группа" datetime="" author="" copyright="" description="" source="" tags="EvropBereg2.0" latitude="" comment="" longitude="" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <hotspot tilt="-11.7" title="Теплый тамбур" target="_blank" skinid="ht_url" url="" pan="-94.64" description="" id="Point01"/>
+      <hotspot tilt="-11.7" title="Теплый тамбур" target="" skinid="ht_node" url="{node2}" pan="-94.64" description="" id="Point01"/>
+      <hotspot tilt="-20.86" title="Колясочная" target="" skinid="ht_node" url="{node4}" pan="170.59" description="" id="Point02"/>
+      <hotspot tilt="-25.57" title="Лифтовый холл" target="" skinid="ht_node" url="{node5}" pan="154.66" description="" id="Point03"/>
+      <hotspot tilt="-28.51" title="Теплый тамбур" target="" skinid="ht_node" url="{node3}" pan="93.8" description="" id="Point04"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
@@ -40,6 +43,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot tilt="-28.07" title="Входная группа" target="" skinid="ht_node" url="{node1}" pan="-170.42" description="" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
@@ -62,6 +66,9 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot tilt="-24.54" title="Входная группа" target="" skinid="ht_node" url="{node1}" pan="-94.29" description="" id="Point01"/>
+      <hotspot tilt="-17.98" title="Вход во двор" target="" skinid="ht_node" url="{node6}" pan="88.43" description="" id="Point02"/>
+      <hotspot tilt="-24.36" title="Двор" target="" skinid="ht_node" url="{node7}" pan="79.2" description="" id="Point03"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
@@ -84,6 +91,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label borderradius="1" textcolor="0x000000" bordercolor="0x000000" width="180" height="20" backgroundalpha="1" enabled="1" border="1" textalpha="1" backgroundcolor="0xffffff" background="1" borderalpha="1" wordwrap="1"/>
       <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot tilt="-15.18" title="Лифтовый холл" target="" skinid="ht_node" url="{node5}" pan="22.05" description="" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomin="0" type="crossdissolve" enabled="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomout="0"/>
