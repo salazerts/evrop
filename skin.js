@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: Evrop.ggsk
-// Generated 2024-04-03T11:35:39
+// Generated 2024-04-03T12:00:22
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -169,12 +169,12 @@ function pano2vrSkin(player,base) {
 		el.ggVPercentVisible = 1.0;
 		el.ggHPercentVisible = 1.0;
 		hs ='';
-		hs+='height : 90px;';
+		hs+='height : 96px;';
 		hs+='left : 0px;';
-		hs+='overflow : visible;';
+		hs+='overflow : hidden;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 104px;';
+		hs+='width : 500px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me._thumbnail_menu.ggScrollByX = function(diffX) {
@@ -304,12 +304,12 @@ function pano2vrSkin(player,base) {
 		}
 		elHorScrollBg = me._thumbnail_menu__horScrollBg = document.createElement('div');
 		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 2503px; height: 15px; background-color: rgba(128,128,128,1); pointer-events: auto;');
+		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 1000px; height: 15px; background-color: rgba(128,128,128,1); pointer-events: auto;');
 		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
 		elHorScrollFg = me._thumbnail_menu__horScrollFg = document.createElement('div');
 		elHorScrollBg.appendChild(elHorScrollFg);
 		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 2503px; height: 15px; background-color: rgba(192,192,192,1); pointer-events: auto;');
+		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 1000px; height: 15px; background-color: rgba(192,192,192,1); pointer-events: auto;');
 		me._thumbnail_menu.ggScrollPosX = 0;
 		me._thumbnail_menu.ggScrollPosXPercent = 0.0;
 		elHorScrollFg.onmousedown = function(e) {
@@ -515,11 +515,11 @@ function pano2vrSkin(player,base) {
 		hs+='border : 0px solid #000000;';
 		hs+='bottom : 0px;';
 		hs+='height : 96px;';
-		hs+='left : 50px;';
+		hs+='left : 500px;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 500.6%;';
+		hs+='width : 200%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -567,29 +567,21 @@ function pano2vrSkin(player,base) {
 				}
 				if (minX < 0) this.ggContentLeftOffset = -minX;
 				if (minY < 0) this.ggContentTopOffset = -minY;
-				var contentWidth = maxX - minX;
-				var contentHeight = maxY - minY;
+				var contentWidth = 500;
+				var contentHeight = 96;
 			var scaleX = this.getBoundingClientRect().width / this.offsetWidth;
 				this.ggContentWidth = contentWidth / scaleX;
 			var scaleY = this.getBoundingClientRect().height / this.offsetHeight;
 				this.ggContentHeight = contentHeight / scaleY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				this.ggContent.style.width = contentWidth + 'px';
-				this.ggContent.style.height = contentHeight + 'px';
 				this.ggContent.style.left = -(Math.round(me._thumbnail_menu.ggScrollPosX / me._thumbnail_menu.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
 				this.ggContent.style.top = -(Math.round(me._thumbnail_menu.ggScrollPosY / me._thumbnail_menu.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				if (contentWidth > Math.ceil(offsetWidthWithScale)) {
-					me._thumbnail_menu__horScrollBg.style.visibility = 'inherit';
-					me._thumbnail_menu__horScrollFg.style.visibility = 'inherit';
-					me._thumbnail_menu.ggHorScrollVisible = true;
-				} else {
-					me._thumbnail_menu__horScrollBg.style.visibility = 'hidden';
-					me._thumbnail_menu__horScrollFg.style.visibility = 'hidden';
-					me._thumbnail_menu.ggHorScrollVisible = false;
-				}
+				me._thumbnail_menu__horScrollBg.style.visibility = 'inherit';
+				me._thumbnail_menu__horScrollFg.style.visibility = 'inherit';
+				me._thumbnail_menu.ggHorScrollVisible = true;
 				if ((me._thumbnail_menu.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._thumbnail_menu.ggHorScrollVisible && contentHeight > this.clientHeight)) {
 					me._thumbnail_menu__vertScrollBg.style.visibility = 'inherit';
 					me._thumbnail_menu__vertScrollFg.style.visibility = 'inherit';
