@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: Evrop.ggsk
-// Generated 2024-04-03T14:40:15
+// Generated 2024-04-03T14:43:07
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -1121,7 +1121,7 @@ function pano2vrSkin(player,base) {
 		hs+='background-clip : padding-box;';
 		hs+='background : #ba6e4b;';
 		hs+='border : 1px solid rgba(0,0,0,0);';
-		hs+='bottom : 181px;';
+		hs+='bottom : 100px;';
 		hs+='cursor : default;';
 		hs+='height : 24px;';
 		hs+='left : 6px;';
@@ -1207,7 +1207,7 @@ function pano2vrSkin(player,base) {
 		hs+='background-clip : padding-box;';
 		hs+='background : #ba6e4b;';
 		hs+='border : 1px solid rgba(0,0,0,0);';
-		hs+='bottom : 205px;';
+		hs+='bottom : 124px;';
 		hs+='cursor : default;';
 		hs+='height : 24px;';
 		hs+='left : 6px;';
@@ -1293,7 +1293,7 @@ function pano2vrSkin(player,base) {
 		hs+='background-clip : padding-box;';
 		hs+='background : #ba6e4b;';
 		hs+='border : 1px solid rgba(0,0,0,0);';
-		hs+='bottom : 229px;';
+		hs+='bottom : 147px;';
 		hs+='cursor : default;';
 		hs+='height : 24px;';
 		hs+='left : 6px;';
