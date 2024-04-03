@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: Evrop.ggsk
-// Generated 2024-04-03T13:21:20
+// Generated 2024-04-03T13:39:09
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -663,7 +663,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumRepeat = 1;
 		el.ggNumRows = 0;
 		el.ggNumCols = 0;
-		el.ggWidth = 98;
+		el.ggWidth = 50;
 		el.ggHeight = 81;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -674,6 +674,16 @@ function pano2vrSkin(player,base) {
 				for(i = 0; i < me._thumbnail_cloner.ggInstances.length; i++) {
 					if (me._thumbnail_cloner.ggInstances[i]._thumbnail_active && me._thumbnail_cloner.ggInstances[i]._thumbnail_active.logicBlock_bordercolor) {
 						me._thumbnail_cloner.ggInstances[i]._thumbnail_active.logicBlock_bordercolor();
+					}
+				}
+			}
+		}
+		me._thumbnail_cloner.callChildLogicBlocks_mouseover = function(){
+			if(me._thumbnail_cloner.ggInstances) {
+				var i;
+				for(i = 0; i < me._thumbnail_cloner.ggInstances.length; i++) {
+					if (me._thumbnail_cloner.ggInstances[i]._text_1 && me._thumbnail_cloner.ggInstances[i]._text_1.logicBlock_visible) {
+						me._thumbnail_cloner.ggInstances[i]._text_1.logicBlock_visible();
 					}
 				}
 			}
@@ -752,6 +762,7 @@ function pano2vrSkin(player,base) {
 				}
 			}
 			me._thumbnail_cloner.callChildLogicBlocks_mouseover();
+			me._thumbnail_cloner.callChildLogicBlocks_mouseover();
 			me._thumbnail_cloner.callChildLogicBlocks_active();
 			me._thumbnail_cloner.ggUpdating = false;
 			player.triggerEvent('clonerchanged');
@@ -770,7 +781,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='top : 10px;';
 		hs+='visibility : inherit;';
-		hs+='width : 98px;';
+		hs+='width : 50px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -1316,11 +1327,11 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='height : 19px;';
-		hs+='left : 1px;';
+		hs+='left : -7px;';
 		hs+='position : absolute;';
-		hs+='top : -1px;';
+		hs+='top : 1px;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 125px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -1329,7 +1340,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor: default;';
 		hs+='left: 0px;';
 		hs+='top:  0px;';
-		hs+='width: 107px;';
+		hs+='width: 127px;';
 		hs+='height: 21px;';
 		hs+='border: 1px solid #000000;';
 		hs+='border: 1px solid rgba(0,0,0,0);';
@@ -1739,7 +1750,7 @@ function pano2vrSkin(player,base) {
 		me.elementMouseDown={};
 		me.elementMouseOver={};
 		me.__div=document.createElement('div');
-		me.__div.setAttribute('style','position: absolute;width: 98px; height: 81px; visibility: inherit; overflow: hidden;');
+		me.__div.setAttribute('style','position: absolute;width: 50px; height: 81px; visibility: inherit; overflow: hidden;');
 		me.__div.style.left=parameter.left;
 		me.__div.style.top=parameter.top;
 		me.__div.style.width=parameter.width;
@@ -1872,14 +1883,17 @@ function pano2vrSkin(player,base) {
 		}
 		me._thumbnail_active.onmouseover=function (e) {
 			me.elementMouseOver['thumbnail_active']=true;
+			me._text_1.logicBlock_visible();
 			me._thumbnail_active.logicBlock_bordercolor();
 		}
 		me._thumbnail_active.onmouseout=function (e) {
 			me.elementMouseOver['thumbnail_active']=false;
+			me._text_1.logicBlock_visible();
 			me._thumbnail_active.logicBlock_bordercolor();
 		}
 		me._thumbnail_active.ontouchend=function (e) {
 			me.elementMouseOver['thumbnail_active']=false;
+			me._text_1.logicBlock_visible();
 			me._thumbnail_active.logicBlock_bordercolor();
 		}
 		me._thumbnail_active.ggUpdatePosition=function (useTransition) {
@@ -1902,7 +1916,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="Text 1";
 		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
@@ -1910,7 +1924,7 @@ function pano2vrSkin(player,base) {
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='top : -25px;';
-		hs+='visibility : inherit;';
+		hs+='visibility : hidden;';
 		hs+='width : 89px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
@@ -1943,6 +1957,30 @@ function pano2vrSkin(player,base) {
 				return this.parentNode.ggElementNodeId();
 			}
 			return player.getCurrentNode();
+		}
+		me._text_1.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((me.elementMouseOver['thumbnail_active'] == true))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._text_1.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._text_1.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._text_1.style[domTransition]='';
+				if (me._text_1.ggCurrentLogicStateVisible == 0) {
+					me._text_1.style.visibility=(Number(me._text_1.style.opacity)>0||!me._text_1.style.opacity)?'inherit':'hidden';
+					me._text_1.ggVisible=true;
+				}
+				else {
+					me._text_1.style.visibility="hidden";
+					me._text_1.ggVisible=false;
+				}
+			}
 		}
 		me._text_1.onmouseover=function (e) {
 			me.elementMouseOver['text_1']=true;
@@ -1986,6 +2024,7 @@ function pano2vrSkin(player,base) {
 	me._button_image_fullscreen.logicBlock_visible();
 	player.addListener('fullscreenenter', function(args) { me._button_image_normalscreen.logicBlock_visible();me._button_image_fullscreen.logicBlock_visible(); });
 	player.addListener('fullscreenexit', function(args) { me._button_image_normalscreen.logicBlock_visible();me._button_image_fullscreen.logicBlock_visible(); });
+	player.addListener('mouseover', function(args) { me._thumbnail_cloner.callChildLogicBlocks_mouseover(); });
 	player.addListener('mouseover', function(args) { me._thumbnail_cloner.callChildLogicBlocks_mouseover(); });
 	player.addListener('changenode', function(args) { me._thumbnail_cloner.callChildLogicBlocks_active(); });
 	player.addListener('mouseover', function(args) { me.callChildLogicBlocksHotspot_ht_node_mouseover(); });
