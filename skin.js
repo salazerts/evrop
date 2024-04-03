@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: Evrop.ggsk
-// Generated 2024-04-03T13:58:54
+// Generated 2024-04-03T14:22:53
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -1077,7 +1077,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+=cssPrefix + 'background-clip : padding-box;';
 		hs+='background-clip : padding-box;';
-		hs+='background : rgba(0,0,0,0.784314);';
+		hs+='background : #ba6e4b;';
 		hs+='border : 1px solid rgba(0,0,0,0);';
 		hs+='bottom : 181px;';
 		hs+='cursor : default;';
@@ -1163,7 +1163,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+=cssPrefix + 'background-clip : padding-box;';
 		hs+='background-clip : padding-box;';
-		hs+='background : rgba(0,0,0,0.784314);';
+		hs+='background : #ba6e4b;';
 		hs+='border : 1px solid rgba(0,0,0,0);';
 		hs+='bottom : 205px;';
 		hs+='cursor : default;';
@@ -1249,7 +1249,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+=cssPrefix + 'background-clip : padding-box;';
 		hs+='background-clip : padding-box;';
-		hs+='background : rgba(0,0,0,0.784314);';
+		hs+='background : #ba6e4b;';
 		hs+='border : 1px solid rgba(0,0,0,0);';
 		hs+='bottom : 229px;';
 		hs+='cursor : default;';
@@ -1787,7 +1787,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 66px;';
+		hs+='bottom : 64px;';
 		hs+='height : 24px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
