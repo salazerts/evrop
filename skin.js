@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: Evrop.ggsk
-// Generated 2024-04-03T13:39:09
+// Generated 2024-04-03T13:55:47
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -169,12 +169,12 @@ function pano2vrSkin(player,base) {
 		el.ggVPercentVisible = 1.0;
 		el.ggHPercentVisible = 1.0;
 		hs ='';
-		hs+='height : 96px;';
+		hs+='height : 95px;';
 		hs+='left : 0px;';
-		hs+='overflow : hidden;';
+		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 500px;';
+		hs+='width : 151px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me._thumbnail_menu.ggScrollByX = function(diffX) {
@@ -302,113 +302,13 @@ function pano2vrSkin(player,base) {
 		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
 			els.onpointerdown = els.ontouchstart;
 		}
-		elHorScrollBg = me._thumbnail_menu__horScrollBg = document.createElement('div');
-		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 1000px; height: 15px; background-color: rgba(128,128,128,1); pointer-events: auto;');
-		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
-		elHorScrollFg = me._thumbnail_menu__horScrollFg = document.createElement('div');
-		elHorScrollBg.appendChild(elHorScrollFg);
-		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 1000px; height: 15px; background-color: rgba(192,192,192,1); pointer-events: auto;');
-		me._thumbnail_menu.ggScrollPosX = 0;
-		me._thumbnail_menu.ggScrollPosXPercent = 0.0;
-		elHorScrollFg.onmousedown = function(e) {
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) return;
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			me._thumbnail_menu.ggDragLastX = e.clientX;
-			document.onmouseup = function() {
-				let inertiaInterval = setInterval(function() {
-					me._thumbnail_menu.ggDragInertiaX *= 0.65;
-					me._thumbnail_menu.ggScrollByX(me._thumbnail_menu.ggDragInertiaX);
-					if (Math.abs(me._thumbnail_menu.ggDragInertiaX) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.onmouseup = null;
-				document.onmousemove = null;
-			}
-			document.onmousemove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var diffX = e.clientX - me._thumbnail_menu.ggDragLastX;
-				me._thumbnail_menu.ggDragInertiaX = diffX;
-				me._thumbnail_menu.ggDragLastX = e.clientX;
-				me._thumbnail_menu.ggScrollByX(diffX);
-			}
-		}
-		elHorScrollFg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			me._thumbnail_menu.ggDragLastX = t ? t[0].clientX : e.clientX;
-			document.ontouchend = function() {
-				let inertiaInterval = setInterval(function() {
-					me._thumbnail_menu.ggDragInertiaX *= 0.65;
-					me._thumbnail_menu.ggScrollByX(me._thumbnail_menu.ggDragInertiaX);
-					if (Math.abs(me._thumbnail_menu.ggDragInertiaX) < 1.0) {
-						clearInterval(inertiaInterval);
-					}
-					}, 50);
-				document.ontouchend = null;
-				document.ontouchmove = null;
-				document.onpointerup = null;
-				document.onpointermove = null;
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointerup = document.ontouchend;
-			}
-			document.ontouchmove = function(e) {
-				e = e || window.event;
-				e.preventDefault();
-				var t = e.touches;
-				var diffX = (t ? t[0].clientX : e.clientX) - me._thumbnail_menu.ggDragLastX;
-				me._thumbnail_menu.ggDragInertiaX = diffX;
-				me._thumbnail_menu.ggDragLastX = t ? t[0].clientX : e.clientX;
-				me._thumbnail_menu.ggScrollByX(diffX);
-			}
-			if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-				document.onpointermove = document.ontouchmove;
-			}
-		}
-		if (player.getOS() == 1 && navigator.maxTouchPoints > 0) {
-			elHorScrollFg.onpointerdown = elHorScrollFg.ontouchstart;
-		}
-		elHorScrollBg.onmousedown = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			var diffX = me._thumbnail_menu.ggScrollWidth;
-			if (e.offsetX < me._thumbnail_menu.ggScrollPosX) {
-				diffX = diffX * -1;
-			}
-			me._thumbnail_menu.ggScrollByXSmooth(diffX);
-		}
-		elHorScrollBg.ontouchstart = function(e) {
-			e = e || window.event;
-			e.preventDefault();
-			e.stopPropagation();
-			var t = e.touches;
-			var rect = me._thumbnail_menu__horScrollBg.getBoundingClientRect();
-			var diffX = me._thumbnail_menu.ggScrollWidth;
-			if ((t[0].clientX - rect.left) < me._thumbnail_menu.ggScrollPosX) {
-				diffX = diffX * -1;
-			}
-			me._thumbnail_menu.ggScrollByXSmooth(diffX);
-		}
-		el.addEventListener('wheel', function(e) {
-			e.preventDefault();
-			var wheelDelta = Math.sign(e.deltaX);
-			me._thumbnail_menu.ggScrollByXSmooth(30 * me._thumbnail_menu.ggHPercentVisible * wheelDelta);
-		});
 		elVertScrollBg = me._thumbnail_menu__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 96px; background-color: rgba(128,128,128,1); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 100px; background-color: rgba(49,49,49,1); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me._thumbnail_menu__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 96px; background-color: rgba(192,192,192,1); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 100px; background-color: rgba(255,255,255,1); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me._thumbnail_menu.ggScrollPosY = 0;
 		me._thumbnail_menu.ggScrollPosYPercent = 0.0;
@@ -514,12 +414,12 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='bottom : 0px;';
-		hs+='height : 96px;';
-		hs+='left : 500px;';
+		hs+='height : 100px;';
+		hs+='left : 1px;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 200%;';
+		hs+='width : 500px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -567,61 +467,28 @@ function pano2vrSkin(player,base) {
 				}
 				if (minX < 0) this.ggContentLeftOffset = -minX;
 				if (minY < 0) this.ggContentTopOffset = -minY;
-				var contentWidth = 500;
-				var contentHeight = 96;
+				var contentWidth = maxX - minX;
+				var contentHeight = maxY - minY;
 			var scaleX = this.getBoundingClientRect().width / this.offsetWidth;
 				this.ggContentWidth = contentWidth / scaleX;
 			var scaleY = this.getBoundingClientRect().height / this.offsetHeight;
 				this.ggContentHeight = contentHeight / scaleY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				this.ggContent.style.left = -(Math.round(me._thumbnail_menu.ggScrollPosX / me._thumbnail_menu.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+				this.ggContent.style.width = contentWidth + 'px';
+				this.ggContent.style.height = contentHeight + 'px';
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
 				this.ggContent.style.top = -(Math.round(me._thumbnail_menu.ggScrollPosY / me._thumbnail_menu.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				me._thumbnail_menu__horScrollBg.style.visibility = 'inherit';
-				me._thumbnail_menu__horScrollFg.style.visibility = 'inherit';
-				me._thumbnail_menu.ggHorScrollVisible = true;
 				if ((me._thumbnail_menu.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._thumbnail_menu.ggHorScrollVisible && contentHeight > this.clientHeight)) {
 					me._thumbnail_menu__vertScrollBg.style.visibility = 'inherit';
 					me._thumbnail_menu__vertScrollFg.style.visibility = 'inherit';
 					me._thumbnail_menu.ggVertScrollVisible = true;
-					if (!me._thumbnail_menu.ggHorScrollVisible && (contentWidth > offsetWidthWithScale - me._thumbnail_menu__vertScrollBg.getBoundingClientRect().width)) {
-						me._thumbnail_menu__horScrollBg.style.visibility = 'inherit';
-						me._thumbnail_menu__horScrollFg.style.visibility = 'inherit';
-						me._thumbnail_menu.ggHorScrollVisible = true;
-					}
 				} else {
 					me._thumbnail_menu__vertScrollBg.style.visibility = 'hidden';
 					me._thumbnail_menu__vertScrollFg.style.visibility = 'hidden';
 					me._thumbnail_menu.ggVertScrollVisible = false;
-				}
-				if(me._thumbnail_menu.ggHorScrollVisible) {
-					me._thumbnail_menu.ggAvailableHeight = me._thumbnail_menu.clientHeight - 15;
-					if (me._thumbnail_menu.ggVertScrollVisible) {
-						me._thumbnail_menu.ggAvailableWidth = me._thumbnail_menu.clientWidth - 15;
-						me._thumbnail_menu.ggAvailableWidthWithScale = me._thumbnail_menu.getBoundingClientRect().width - me._thumbnail_menu__horScrollBg.getBoundingClientRect().height;
-					} else {
-						me._thumbnail_menu.ggAvailableWidth = me._thumbnail_menu.clientWidth;
-						me._thumbnail_menu.ggAvailableWidthWithScale = me._thumbnail_menu.getBoundingClientRect().width;
-					}
-					me._thumbnail_menu__horScrollBg.style.width = me._thumbnail_menu.ggAvailableWidth + 'px';
-					me._thumbnail_menu.ggHPercentVisible = contentWidth != 0 ? me._thumbnail_menu.ggAvailableWidthWithScale / contentWidth : 0.0;
-					if (me._thumbnail_menu.ggHPercentVisible > 1.0) me._thumbnail_menu.ggHPercentVisible = 1.0;
-					me._thumbnail_menu.ggScrollWidth = Math.round(me._thumbnail_menu__horScrollBg.offsetWidth * me._thumbnail_menu.ggHPercentVisible);
-					me._thumbnail_menu__horScrollFg.style.width = me._thumbnail_menu.ggScrollWidth + 'px';
-					me._thumbnail_menu.ggScrollPosX = me._thumbnail_menu.ggScrollPosXPercent * me._thumbnail_menu.ggAvailableWidth;
-					me._thumbnail_menu.ggScrollPosX = Math.min(me._thumbnail_menu.ggScrollPosX, me._thumbnail_menu__horScrollBg.offsetWidth - me._thumbnail_menu__horScrollFg.offsetWidth);
-					me._thumbnail_menu__horScrollFg.style.left = me._thumbnail_menu.ggScrollPosX + 'px';
-					if (me._thumbnail_menu.ggHPercentVisible < 1.0) {
-						let percentScrolled = me._thumbnail_menu.ggScrollPosX / (me._thumbnail_menu__horScrollBg.offsetWidth - me._thumbnail_menu__horScrollFg.offsetWidth);
-						me._thumbnail_menu__content.style.left = -(Math.round((me._thumbnail_menu.ggContentWidth * (1.0 - me._thumbnail_menu.ggHPercentVisible)) * percentScrolled)) + this.ggContentLeftOffset + 'px';
-					}
-				} else {
-					me._thumbnail_menu.ggAvailableHeight = me._thumbnail_menu.clientHeight;
-					me._thumbnail_menu.ggScrollPosX = 0;
-					me._thumbnail_menu.ggScrollPosXPercent = 0.0;
-					me._thumbnail_menu__content.style.left = this.ggContentLeftOffset + 'px';
 				}
 				if(me._thumbnail_menu.ggVertScrollVisible) {
 					me._thumbnail_menu.ggAvailableWidth = me._thumbnail_menu.clientWidth - 15;
@@ -663,7 +530,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumRepeat = 1;
 		el.ggNumRows = 0;
 		el.ggNumCols = 0;
-		el.ggWidth = 50;
+		el.ggWidth = 112;
 		el.ggHeight = 81;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -776,12 +643,12 @@ function pano2vrSkin(player,base) {
 		el.ggType='cloner';
 		hs ='';
 		hs+='height : 81px;';
-		hs+='left : 3px;';
+		hs+='left : 40px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
-		hs+='top : 10px;';
+		hs+='top : 15px;';
 		hs+='visibility : inherit;';
-		hs+='width : 50px;';
+		hs+='width : 112px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -1750,7 +1617,7 @@ function pano2vrSkin(player,base) {
 		me.elementMouseDown={};
 		me.elementMouseOver={};
 		me.__div=document.createElement('div');
-		me.__div.setAttribute('style','position: absolute;width: 50px; height: 81px; visibility: inherit; overflow: hidden;');
+		me.__div.setAttribute('style','position: absolute;width: 112px; height: 81px; visibility: inherit; overflow: hidden;');
 		me.__div.style.left=parameter.left;
 		me.__div.style.top=parameter.top;
 		me.__div.style.width=parameter.width;
@@ -1772,7 +1639,7 @@ function pano2vrSkin(player,base) {
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="Thumbnail NodeImage";
-		el.ggDx=3;
+		el.ggDx=-1;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_nodeimage ";
@@ -1782,7 +1649,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 60px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='top : 20px;';
+		hs+='top : 14px;';
 		hs+='visibility : inherit;';
 		hs+='width : 100px;';
 		hs+='pointer-events:auto;';
@@ -1821,7 +1688,7 @@ function pano2vrSkin(player,base) {
 		}
 		el=me._thumbnail_active=document.createElement('div');
 		el.ggId="Thumbnail Active";
-		el.ggDx=-2;
+		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_rectangle ";
@@ -1829,12 +1696,12 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 3px solid #000000;';
 		hs+='cursor : default;';
-		hs+='height : 54px;';
+		hs+='height : 57px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 91px;';
+		hs+='width : 96px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -1923,7 +1790,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 19px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='top : -25px;';
+		hs+='top : -23px;';
 		hs+='visibility : hidden;';
 		hs+='width : 89px;';
 		hs+='pointer-events:auto;';
