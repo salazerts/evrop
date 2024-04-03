@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: Evrop.ggsk
-// Generated 2024-04-03T14:24:09
+// Generated 2024-04-03T14:32:21
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -169,12 +169,12 @@ function pano2vrSkin(player,base) {
 		el.ggVPercentVisible = 1.0;
 		el.ggHPercentVisible = 1.0;
 		hs ='';
-		hs+='height : 107px;';
+		hs+='height : 103px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 147px;';
+		hs+='width : 100px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me._thumbnail_menu.ggScrollByX = function(diffX) {
@@ -304,11 +304,11 @@ function pano2vrSkin(player,base) {
 		}
 		elVertScrollBg = me._thumbnail_menu__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 113px; background-color: rgba(49,49,49,1); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 115px; background-color: rgba(49,49,49,1); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me._thumbnail_menu__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 113px; background-color: rgba(255,255,255,1); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 115px; background-color: rgba(255,255,255,1); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me._thumbnail_menu.ggScrollPosY = 0;
 		me._thumbnail_menu.ggScrollPosYPercent = 0.0;
@@ -414,12 +414,12 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='bottom : 0px;';
-		hs+='height : 113px;';
-		hs+='left : 1px;';
+		hs+='height : 115px;';
+		hs+='left : 0px;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 500px;';
+		hs+='width : 1700px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -530,7 +530,7 @@ function pano2vrSkin(player,base) {
 		el.ggNumRepeat = 1;
 		el.ggNumRows = 0;
 		el.ggNumCols = 0;
-		el.ggWidth = 112;
+		el.ggWidth = 100;
 		el.ggHeight = 104;
 		el.ggUpdating = false;
 		el.ggFilter = [];
@@ -643,12 +643,12 @@ function pano2vrSkin(player,base) {
 		el.ggType='cloner';
 		hs ='';
 		hs+='height : 104px;';
-		hs+='left : 36px;';
+		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
-		hs+='top : 4px;';
+		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 112px;';
+		hs+='width : 100px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -1617,7 +1617,7 @@ function pano2vrSkin(player,base) {
 		me.elementMouseDown={};
 		me.elementMouseOver={};
 		me.__div=document.createElement('div');
-		me.__div.setAttribute('style','position: absolute;width: 112px; height: 104px; visibility: inherit; overflow: hidden;');
+		me.__div.setAttribute('style','position: absolute;width: 100px; height: 104px; visibility: inherit; overflow: hidden;');
 		me.__div.style.left=parameter.left;
 		me.__div.style.top=parameter.top;
 		me.__div.style.width=parameter.width;
