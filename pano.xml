@@ -94,8 +94,8 @@
     <hotspots wordwrap="1" height="20" width="180">
       <label enabled="1" textcolor="0x000000" wordwrap="1" textalpha="1" background="1" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" width="180" border="1" borderradius="1"/>
       <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="-15.18" url="{node5}" pan="22.05" id="Point01" skinid="ht_node" title="Лифтовый холл" target="" description=""/>
-      <hotspot tilt="-15.91" url="{node1}" pan="-1.03" id="Point02" skinid="ht_node" title="Входная группа" target="" description=""/>
+      <hotspot tilt="-7.68" url="{node5}" pan="22.51" id="Point01" skinid="ht_node_left" title="Лифтовый холл" target="" description=""/>
+      <hotspot tilt="-9.4" url="{node1}" pan="-8.37" id="Point02" skinid="ht_node_right" title="Входная группа" target="" description=""/>
     </hotspots>
     <media/>
     <transition enabled="0" zoomafterinfov="90" softedge="0" zoomfov="20" zoomin="0" zoomspeed="2" zoomout="0" blendtime="1" blendcolor="0x000000" type="crossdissolve" zoomafteroutfov="20" zoomoutpause="1"/>
@@ -274,6 +274,7 @@
       <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
       <hotspot tilt="-18.36" url="{node15}" pan="35.94" id="Point01" skinid="ht_node" title="Детская площадка" target="" description=""/>
       <hotspot tilt="-16.92" url="{node6}" pan="-36.64" id="Point02" skinid="ht_node" title="Вход во двор" target="" description=""/>
+      <hotspot tilt="-18.97" url="{node10}" pan="-215.93" id="Point03" skinid="ht_node" title="Двор" target="" description=""/>
     </hotspots>
     <media/>
     <transition enabled="0" zoomafterinfov="90" softedge="0" zoomfov="20" zoomin="0" zoomspeed="2" zoomout="0" blendtime="1" blendcolor="0x000000" type="crossdissolve" zoomafteroutfov="20" zoomoutpause="1"/>
@@ -452,7 +453,7 @@
     <hotspots wordwrap="1" height="20" width="180">
       <label enabled="1" textcolor="0x000000" wordwrap="1" textalpha="1" background="1" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" width="180" border="1" borderradius="1"/>
       <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot tilt="-20.99" url="{node6}" pan="86.23" id="Point01" skinid="ht_node" title="Вход во двор" target="" description=""/>
+      <hotspot tilt="-20.99" url="{node16}" pan="86.23" id="Point01" skinid="ht_node" title="Выход на набережную" target="" description=""/>
     </hotspots>
     <media/>
     <transition enabled="0" zoomafterinfov="90" softedge="0" zoomfov="20" zoomin="0" zoomspeed="2" zoomout="0" blendtime="1" blendcolor="0x000000" type="crossdissolve" zoomafteroutfov="20" zoomoutpause="1"/>
